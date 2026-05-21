@@ -93,6 +93,10 @@ createStreamProxyHandler({
 - The proxy will follow redirects (`redirect: 'follow'`). If you need to restrict the destinations, wrap `fetchImpl` and validate the resolved URL.
 - This proxy intentionally has **no host allowlist** — pair it with [`aetherly-embed-guard`](https://github.com/Astralchemist/aetherly-embed-guard) (or your own check) if you only want a fixed set of upstreams.
 
+## Disclaimer
+
+This library is provided as infrastructure for proxying HLS / MP4 media streams and forwarding HTTP headers. Users are responsible for ensuring they have the right to access, proxy, and redistribute the content they target. The authors do not endorse any specific use case and make no representation about the legality of upstream sources.
+
 ## License
 
 MIT

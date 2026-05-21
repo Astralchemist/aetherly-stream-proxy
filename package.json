@@ -1,0 +1,48 @@
+{
+  "name": "aetherly-stream-proxy",
+  "version": "0.1.0",
+  "description": "Zero-dependency HLS / MP4 media proxy with per-request header forwarding and m3u8 manifest rewriting. Web Fetch API native — works in Next.js App Router, Cloudflare Workers, Bun, Deno, anywhere Request/Response live.",
+  "keywords": [
+    "hls",
+    "m3u8",
+    "proxy",
+    "stream",
+    "video",
+    "nextjs",
+    "cloudflare-workers",
+    "edge",
+    "media-proxy"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.41",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Astralchemist/aetherly-stream-proxy.git"
+  }
+}

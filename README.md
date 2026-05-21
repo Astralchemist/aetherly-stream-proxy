@@ -1,6 +1,13 @@
 # aetherly-stream-proxy
 
+[![npm version](https://img.shields.io/npm/v/aetherly-stream-proxy.svg)](https://www.npmjs.com/package/aetherly-stream-proxy)
+[![npm downloads](https://img.shields.io/npm/dm/aetherly-stream-proxy.svg)](https://www.npmjs.com/package/aetherly-stream-proxy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/aetherly-stream-proxy)](https://bundlephobia.com/package/aetherly-stream-proxy)
+
 Zero-dependency HLS / MP4 media proxy with per-request header forwarding and `.m3u8` manifest rewriting. Built on the Web Fetch API — drop it into a Next.js App Router route, a Cloudflare Worker, a Bun server, or a Hono adapter without changes.
+
+**[Try the live demo →](./examples/nextjs-app-router)** &nbsp;·&nbsp; [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAstralchemist%2Faetherly-stream-proxy&project-name=aetherly-stream-proxy-demo&repository-name=aetherly-stream-proxy-demo&root-directory=examples%2Fnextjs-app-router)
 
 ## Why this exists
 

@@ -1,5 +1,6 @@
 # aetherly-stream-proxy
 
+[![CI](https://github.com/Astralchemist/aetherly-stream-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/Astralchemist/aetherly-stream-proxy/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/aetherly-stream-proxy.svg)](https://www.npmjs.com/package/aetherly-stream-proxy)
 [![npm downloads](https://img.shields.io/npm/dm/aetherly-stream-proxy.svg)](https://www.npmjs.com/package/aetherly-stream-proxy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
